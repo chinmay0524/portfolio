@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chinmay Sharma Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="background">
@@ -19,18 +20,47 @@
         </ul>
       </nav>
     </header>
+
     <section id="home">
       <h2>Welcome to My Portfolio</h2>
-      <p>Transforming data into meaningful insights.</p>
+      <p>Transforming data into meaningful insights with professionalism and mindfulness.</p>
+      <button onclick="scrollToSection('portfolio')">View My Work</button>
     </section>
+
     <section id="portfolio">
       <h2>Portfolio</h2>
-      <p>Explore my projects.</p>
+      <div class="project-cards">
+        <div class="card">
+          <h3>Project 1</h3>
+          <p>A detailed business analysis project.</p>
+        </div>
+        <div class="card">
+          <h3>Project 2</h3>
+          <p>Data visualization using Power BI and Tableau.</p>
+        </div>
+      </div>
     </section>
+
     <section id="certifications">
       <h2>Certifications</h2>
-      <p>Certifications to demonstrate my skills.</p>
+      <ul>
+        <li>Microsoft Power BI Certification</li>
+        <li>Google Data Analytics Certification</li>
+        <li>Tableau Desktop Specialist</li>
+      </ul>
     </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Let's connect!</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
     <footer>
       <p>&copy; 2024 Chinmay Sharma</p>
     </footer>
